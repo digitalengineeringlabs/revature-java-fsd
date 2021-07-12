@@ -1,0 +1,55 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		User u1 = new User("Mike",30);
+		User u2 = new User("Kevin",32);
+		User u3 = new User("Barb",25);
+
+		ArrayList<User> users = new ArrayList<User>();
+		users.add(u1);
+		users.add(u2);
+		users.add(u3);
+
+		//Comparator
+//		compareTo(obj1, obj2){
+//		}
+
+		//Comparable
+//		compare() {
+//		}
+
+
+		Collections.sort(users);
+
+
+
+		for(User u : users) {
+			System.out.println(u);
+		}
+	}
+
+}
+
+class User {
+
+	String name = null;
+    int age = 0;
+	
+	//constructor
+    public User(String name, int age) {
+    	this.name = name;
+    	this.age = age;
+    }
+    
+    @Override
+    public String toString() {
+    	return "["+this.name +", "+ this.age +"]";
+    }
+} 

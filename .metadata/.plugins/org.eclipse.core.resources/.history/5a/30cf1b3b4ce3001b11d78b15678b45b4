@@ -1,0 +1,15 @@
+
+public class FunctionalInterfaces {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+	
+}
+
+interface Square {
+	int calculate(int input);
+}

@@ -1,0 +1,20 @@
+
+public class SerializingObject {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Manager {
+	String name;
+	int age;
+	boolean senior;
+	
+	public Manager(String name, int age, boolean senior) {
+		this.name = name;
+		this.age = age;
+		this.senior = senior;
+	}
+}

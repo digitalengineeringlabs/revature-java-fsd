@@ -1,0 +1,35 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public class SerializingObject {
+	
+	public static void main(String[] args) {
+		
+		Manager m = new Manager("Mike",34,true);
+		
+		try {
+			ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("object.txt"));
+			oos.writeObject(m);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		
+	}
+
+}
+
+class Manager implements Serializable {
+	String name;
+	int age;
+	boolean senior;
+	
+	public Manager(String name, int age, boolean senior) {
+		this.name = name;
+		this.age = age;
+		this.senior = senior;
+	}
+}
