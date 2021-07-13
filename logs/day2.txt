@@ -1,0 +1,73 @@
+1.1
+
+Hashtable and Vector
+Synchronized
+
+1.2
+
+Collection
+List, Set, Map
+Not Synchronized
+
+ArrayList
+LinkedList
+Set
+SortMap
+HashMap
+
+Queue and Dequqe
+
+
+Custom Exceptions
+
+class AccountAlreadyExistsException extends Exception {
+}
+
+
+class Registration{
+
+	createAccount() throws AccountAlreadyExistsException {
+	
+		//make sure the input values are valid
+	
+		if(dob && lastname) {
+			throw new AccountAlreadyExistsException()
+		}
+		
+		//persist account
+
+
+	}
+
+}
+
+Iterator
+
+Iterable
+
+Consumer
+
+Annotations
+
+Exercise:
+
+Create a group sorter app, console based app, that will list down the groups in ascending or descending order based on the average score of members of the group.
+
+Features include
+
+
+1. Configure Group & Member
+	A*A1|A2|A3#B*B1|B2|B3
+
+2. Add scores of each member for a given event
+	Event1>A1*90|A2*56|...
+	Event2>A1*78|A2*45|...
+	Event3>A1*45|A2*66|...
+
+3. Show the groups with scores descending
+	A - 89
+	B - 86
+	C - 78
+ 
+
+

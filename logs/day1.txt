@@ -1,0 +1,27 @@
+Heap & Stack 
+Casting 
+Autoboxing - 
+Exceptions - throws & throw new 
+Throwable - Error and Exception 
+Functional Interfaces 
+3 built-in : Predicate, Binary Operator and Function 
+StringBuilder and StringBuffer 
+Lambda 
+Collection 
+Collections.sort(users) 
+
+User implements 
+Comparable {
+	int compareTo(User otherObj) {
+	}
+}
+NameComparator implements Comparator {
+	int compare(User u1, User u2) {
+		return
+	}
+}
+File 
+FileWriter 
+FileReader 
+Serialization - mechanism to persist the state of object
+DeSerialization
