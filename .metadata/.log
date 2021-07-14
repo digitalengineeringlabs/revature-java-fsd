@@ -1722,3 +1722,66 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:03.129
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cQuvktfq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:03.130
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.cQuvktfq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:03.131
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:03.132
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cQuvktfq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:22.123
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:22.123
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@22fc4ab3[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:22.124
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:31.483
+!MESSAGE Boot LS startup time from start to initialized: 9353ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.134
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QMdribMmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.135
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.136
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.138
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.138
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QMdribMm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.139
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.140
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.141
+!MESSAGE buffering callback sts4.classpath.QMdribMm JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.142
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.143
+!MESSAGE buffering callback sts4.classpath.QMdribMm HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:32.143
+!MESSAGE executing callback sts4.classpath.QMdribMm 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-15 02:30:33.832
+!MESSAGE executing callback sts4.classpath.QMdribMm SUCCESS [done]
