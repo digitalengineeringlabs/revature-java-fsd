@@ -12,7 +12,7 @@ public class RoomManager {
 		Room foyer = new Room("Foyer","first room to enter house", "The small entryway of a neo-colonial house");
 		//TODO: should add exits 
 		
-		
+		//add more rooms
 		
 		this.startingRoom = foyer;
 

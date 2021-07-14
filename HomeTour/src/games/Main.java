@@ -7,17 +7,24 @@ import fixtures.Room;
 public class Main {
 	
 	public static void main(String[] args) {
+		
 		Scanner in = new Scanner(System.in);
 		//get player
 		System.out.print("Enter Player Name:");
 		String name = in.next();
+		
+		
+		
 		//print starting room info
 		Player player = new Player(name);
+		
 		RoomManager rm = new RoomManager();
 		rm.init();
+				
 		
 		player.setCurrentRoom(rm.getStartingRoom());
 		printRoom(player);
+				
 		
 		boolean quit = false;
 		while(player.getCurrentRoom().hasExists() || !quit) {
