@@ -44,8 +44,9 @@ public class Main {
 		System.out.println("You are in "+room.getName()+" room now.");
 		System.out.println(room.getLongDescription());
 		System.out.println();
-		Room[] exits = room.getExits();
-		if(exits != null) {
+		
+		if(room.hasExists()) {
+			Room[] exits = room.getExits();
 			for(int i = 0; i < exits.length; i++) {
 				String direction = switch (i) {
 					case 0: {
