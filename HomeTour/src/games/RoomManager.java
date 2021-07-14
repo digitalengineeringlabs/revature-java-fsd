@@ -4,15 +4,25 @@ import fixtures.Room;
 
 public class RoomManager {
 	
-	private Room[] rooms;
+	private Room[] rooms = new Room[2];
 	private Room startingRoom;
 	
 	public void init() {
 		
 		Room foyer = new Room("Foyer","first room to enter house", "The small entryway of a neo-colonial house");
-		//TODO: should add exits 
+		Room hall = new Room("Hall","other room in the house", "gathering space");
+
+		Room[] foyerExits = {null,hall,null,null};
+		Room[] hallExits = {null,null,null,foyer};
 		
+		//TODO: should add exits 
+		foyer.setExits(foyerExits);
+		hall.setExits(hallExits);
 		//add more rooms
+		
+		rooms[0] = foyer;
+		rooms[1] = hall;
+		
 		
 		this.startingRoom = foyer;
 
