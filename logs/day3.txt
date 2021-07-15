@@ -1,0 +1,21 @@
+Reusability thru Polymorphism and Inheritance
+
+
+Extensibility thru Abstraction
+
+Interface and concrete classes
+
+Factory Pattern
+
+
+Home Tutor - Implementation
+
+STS Debugging
+
+Streams API
+
+1. stream() 
+2. Intermediate operations (map, filter)
+3. Terminal operations (collect)
+
+
