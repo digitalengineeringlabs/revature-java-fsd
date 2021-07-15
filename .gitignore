@@ -1,6 +1,5 @@
 .classpath
 .project
-.metadata
+.metadata/
 
-/node_modules
-/bin
+
