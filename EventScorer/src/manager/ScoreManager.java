@@ -20,6 +20,7 @@ public class ScoreManager {
 	}
 	
 	public void getScoresByGroup(List<Group> groups, boolean sortDesc){
+		
 		//iterate for each group
 		for(Group g : groups) {
 			double groupScore = 0;
@@ -46,6 +47,7 @@ public class ScoreManager {
 
 			//set the score to the group
 			g.setScore(groupAveScore);
+			
 		}
 		
 		
