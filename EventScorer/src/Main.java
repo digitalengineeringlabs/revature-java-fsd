@@ -39,15 +39,15 @@ public class Main {
 		e2.addScore(new Member("B1"), 46);
 		e2.addScore(new Member("B2"), 50);
 		e2.addScore(new Member("B3"), 35);
-		
+
+		ScoreManager manager = new ScoreManager();
+		manager.addScores(e1);
+		manager.addScores(e2);
 		
 		//3. Show the groups with scores descending
 		//A - 89
 		//B - 86
 		//C - 78		
-		ScoreManager manager = new ScoreManager();
-		manager.addScores(e1);
-		manager.addScores(e2);
 		
 		List<Group> groups = new ArrayList<Group>();
 		groups.add(g1);
