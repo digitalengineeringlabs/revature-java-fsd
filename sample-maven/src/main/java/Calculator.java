@@ -13,11 +13,13 @@ public class Calculator {
 		//TRACE
 		logger.trace("trace level log");
 		//DEBUG
-		logger.debug("calculating expression");
+		logger.debug("debug level log");
 		//INFO
-		logger.info("info level");
+		logger.info("info level log");
 		//WARN
+		logger.warn("warn level log");
 		//ERROR
+		logger.error("warn level log");
 		
 		
 		int sum = 0;

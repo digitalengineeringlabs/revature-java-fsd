@@ -13,11 +13,10 @@
     </Appenders>
     
     <Loggers>
-    	<Logger name="logging" level="trace" additivity="false">
+<!--     	<Logger name="manager" level="trace" additivity="false">
         	<AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
-        </Logger> 
-        
+        </Logger>  -->
         <Root level="info">
         	<AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
