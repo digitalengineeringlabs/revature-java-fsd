@@ -19,7 +19,7 @@ public class Multithreading {
 //		t2.start();
 		
 		
-		
+		//Using Runnable with Lambda expression
 		Thread t = new Thread(()->System.out.println("Test"));
 		t.start();
 	}
