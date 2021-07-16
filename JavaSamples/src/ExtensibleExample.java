@@ -13,7 +13,8 @@ public class ExtensibleExample {
 		
 		// Factory
 		// AbstractFactory
-		// Singleto
+		// Singleton
+		// Proxy
 		
 		//2. Structural
 		//3. Behavioral

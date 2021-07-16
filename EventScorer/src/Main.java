@@ -43,7 +43,8 @@ public class Main {
 		ScoreManager manager = new ScoreManager();
 		manager.addScores(e1);
 		manager.addScores(e2);
-		
+
+
 		//3. Show the groups with scores descending
 		//A - 89
 		//B - 86

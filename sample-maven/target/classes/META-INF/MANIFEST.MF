@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 15
+Main-Class: Main
+Created-By: Maven Integration for Eclipse
+
