@@ -7222,3 +7222,1465 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 20:14:31.309
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:24:33.710
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:24:33.742
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:42:46.870
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:42:46.876
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:53:43.213
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 21:53:43.220
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 21:53:44.597
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RVDOidBM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 21:53:44.599
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RVDOidBM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 21:53:44.666
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 21:53:44.668
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RVDOidBM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.270
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.271
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1bc09f2f[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.271
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.304
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.305
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1bc09f2f[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:50.306
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.704
+!MESSAGE Boot LS startup time from start to initialized: 3397ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.865
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BaVECZQLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.866
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.867
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.867
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.867
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.868
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BaVECZQL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.869
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.869
+!MESSAGE buffering callback sts4.classpath.BaVECZQL project-zero-catalog false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.869
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.870
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.870
+!MESSAGE buffering callback sts4.classpath.BaVECZQL EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.871
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.872
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.872
+!MESSAGE buffering callback sts4.classpath.BaVECZQL HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.873
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.873
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.874
+!MESSAGE buffering callback sts4.classpath.BaVECZQL JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.874
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.875
+!MESSAGE classpath=13 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.876
+!MESSAGE buffering callback sts4.classpath.BaVECZQL sample-maven false 13
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:53.876
+!MESSAGE executing callback sts4.classpath.BaVECZQL 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:41:54.608
+!MESSAGE executing callback sts4.classpath.BaVECZQL SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:42:10.841
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:42:10.845
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-07-22 22:43:28.096
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:43:38.172
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:43:38.180
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:44:18.477
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:44:18.483
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:44:57.059
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:44:57.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:45:11.371
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:45:11.375
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:45:20.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:45:20.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:13.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:13.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:21.676
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:21.681
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:31.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:46:31.651
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:11.678
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:11.681
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:42.573
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:42.575
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:52.636
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:49:52.641
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:50:08.253
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BaVECZQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:50:08.253
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BaVECZQL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:50:08.257
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:50:08.257
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BaVECZQL => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-07-22 22:50:09.705
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project project-zero-catalog
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2021-07-22 22:50:09.706
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-07-22 22:50:09.707
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project project-zero-catalog
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2021-07-22 22:50:09.707
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-07-22 22:50:09.713
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration App references closed project project-zero-catalog
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2021-07-22 22:50:09.713
+!MESSAGE Launch configuration App references closed project project-zero-catalog
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:14.995
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:14.998
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:31.528
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:31.532
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-07-22 22:50:34.922
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:56.665
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:50:56.667
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:07.595
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:07.597
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1bc09f2f[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:07.597
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.312
+!MESSAGE Boot LS startup time from start to initialized: 3713ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.455
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ayXqsucKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.456
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.457
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.457
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.458
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ayXqsucK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.459
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.461
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.462
+!MESSAGE buffering callback sts4.classpath.ayXqsucK project-zero-catalog false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.462
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.463
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.463
+!MESSAGE buffering callback sts4.classpath.ayXqsucK EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.464
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.465
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.465
+!MESSAGE buffering callback sts4.classpath.ayXqsucK HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.466
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.467
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.469
+!MESSAGE buffering callback sts4.classpath.ayXqsucK JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.472
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.473
+!MESSAGE classpath=13 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.473
+!MESSAGE buffering callback sts4.classpath.ayXqsucK sample-maven false 13
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:11.474
+!MESSAGE executing callback sts4.classpath.ayXqsucK 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:55:12.229
+!MESSAGE executing callback sts4.classpath.ayXqsucK SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:55:43.197
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:55:43.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:57:16.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:57:16.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:58:17.511
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:58:17.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:20.535
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ayXqsucK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:20.537
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ayXqsucK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:20.538
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:20.538
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ayXqsucK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:29.731
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:29.732
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1bc09f2f[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:29.733
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-22 22:58:30.733
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3079)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1521)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at jdk.internal.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5048)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1260)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:283)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4227)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3837)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-22 22:58:31.736
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:379)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1715)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:528)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:378)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3079)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1521)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at jdk.internal.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5048)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1260)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:283)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4227)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3837)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-22 22:58:32.741
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.039
+!MESSAGE Boot LS startup time from start to initialized: 3305ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.289
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zKZtjaJvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.289
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.290
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.291
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.292
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zKZtjaJv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.292
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.293
+!MESSAGE classpath=13 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.294
+!MESSAGE buffering callback sts4.classpath.zKZtjaJv sample-maven false 13
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.294
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.295
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.296
+!MESSAGE buffering callback sts4.classpath.zKZtjaJv EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.296
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.297
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.298
+!MESSAGE buffering callback sts4.classpath.zKZtjaJv HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.298
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.299
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.300
+!MESSAGE buffering callback sts4.classpath.zKZtjaJv JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.305
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.306
+!MESSAGE buffering callback sts4.classpath.zKZtjaJv project-zero-catalog false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:33.307
+!MESSAGE executing callback sts4.classpath.zKZtjaJv 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 22:58:34.541
+!MESSAGE executing callback sts4.classpath.zKZtjaJv SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:59:22.231
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 22:59:22.234
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:00:44.536
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:00:44.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:01:47.363
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:01:47.366
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:02:38.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:02:38.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:03:43.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:03:43.467
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:03:52.241
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zKZtjaJv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:03:52.243
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zKZtjaJv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:03:52.243
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:03:52.244
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zKZtjaJv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:05.629
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:05.630
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1bc09f2f[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:05.631
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.149
+!MESSAGE Boot LS startup time from start to initialized: 5517ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.498
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vzfhiONEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.499
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.500
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.500
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.500
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.501
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vzfhiONE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.502
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.503
+!MESSAGE buffering callback sts4.classpath.vzfhiONE project-zero-catalog false 25
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.504
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.505
+!MESSAGE buffering callback sts4.classpath.vzfhiONE EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.505
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.506
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.506
+!MESSAGE buffering callback sts4.classpath.vzfhiONE HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.507
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.508
+!MESSAGE buffering callback sts4.classpath.vzfhiONE JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.508
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.509
+!MESSAGE classpath=13 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.509
+!MESSAGE buffering callback sts4.classpath.vzfhiONE sample-maven false 13
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:11.510
+!MESSAGE executing callback sts4.classpath.vzfhiONE 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 23:17:13.011
+!MESSAGE executing callback sts4.classpath.vzfhiONE SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:19:21.152
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:19:21.157
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:20:20.822
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:20:20.825
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:20:40.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:20:40.233
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:22:38.975
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:22:38.980
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:23:08.051
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:23:08.095
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:24:45.353
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:24:45.365
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:01.984
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:01.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:08.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:08.535
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:59.032
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:25:59.043
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:26:43.011
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:26:43.014
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-22 23:26:44.003
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:29:06.101
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:29:06.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:10.075
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:10.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:19.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:19.557
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:55.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:31:55.044
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:33:35.714
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:33:35.737
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:41:50.321
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:41:50.325
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:43:04.517
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:43:04.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:43:28.709
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:43:28.719
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:44:39.622
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:44:39.624
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:46:20.316
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:46:20.324
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:47:29.866
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:47:29.876
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:57:31.308
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:57:31.345
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:57:44.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 23:57:44.461
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:00:35.037
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:00:35.049
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:00:41.911
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:00:41.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:06:57.909
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:06:57.914
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:07:40.476
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:07:40.481
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:07:55.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:07:55.929
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:09:05.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:09:05.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:09:37.228
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:09:37.234
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:12.018
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:12.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-07-23 00:10:27.705
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-07-23 00:10:45.986
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:55.935
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:56.024
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 00:10:56.694
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 00:10:56.696
+!MESSAGE classpath=27 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 00:10:56.698
+!MESSAGE buffering callback sts4.classpath.vzfhiONE project-zero-catalog false 27
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 00:10:56.698
+!MESSAGE executing callback sts4.classpath.vzfhiONE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 00:10:56.715
+!MESSAGE executing callback sts4.classpath.vzfhiONE SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:59.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:10:59.872
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:11:16.041
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:11:16.046
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:11:22.023
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:11:22.026
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:12:09.820
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:12:09.825
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:16:09.523
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:16:09.579
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:17:16.594
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:17:16.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:17:41.460
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:17:41.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:18:02.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:18:02.575
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:18:43.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:18:43.521
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-07-23 00:19:41.113
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:19:54.659
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:19:54.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:14.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:14.552
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:16.461
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:16.464
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:27.277
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:27.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:46.188
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:46.191
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:49.506
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:21:49.521
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:22:35.382
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:22:35.386
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:22:38.663
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:22:38.688
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:23:28.422
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:23:28.426
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:23:34.667
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:23:34.671
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:25:10.040
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:25:10.044
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:26:03.675
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:26:03.688
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:26:12.494
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 00:26:12.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2021-07-23 00:29:54.310
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-23 00:29:54.310
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.maximize,Maximize Active View or Editor,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@791a7a57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22ceb7de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-23 00:29:54.310
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.quickaccess,Quick Access,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79cae2f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.goto.wordNext,Next Word,
+		Go to the next word,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5face231,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-23 00:29:54.310
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,Copy,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75cee351,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22e9ca71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c9a71ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@341fa764,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

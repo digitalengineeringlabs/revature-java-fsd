@@ -3,10 +3,16 @@ package client;
 import java.util.List;
 import java.util.Scanner;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import common.pojo.Product;
+import dao.ProductDAO;
 import service.ProductService;
 
 public class ConsoleApp {
+	
+	private static final Logger logger = LogManager.getLogger(ConsoleApp.class);
 
 	private ProductService service = new ProductService();
 
@@ -23,15 +29,15 @@ public class ConsoleApp {
 			case "1":
 				listView();
 				break;
-	
+			case "2":
+				searchView(input);
+				break;
 			default:
 				break;
 		}
 		
-		
-		
 		input.close();
-//		searchView();
+
 //		addView();
 //		updateView();
 //		deleteView();
@@ -62,8 +68,24 @@ public class ConsoleApp {
 
 	}
 
-	private void searchView() {
-
+	private void searchView(Scanner input) {
+		
+		System.out.println("Enter title to search: ");
+		String title = input.next();
+		
+		//TODO: do some sanity check (regex)
+		
+		try {
+			List<Product> products = service.findAll(title);
+			// header
+			System.out.println("ID | Title | Category | Price");
+			// data
+			for (Product p : products) {
+				System.out.println(p.getId() + " | " + p.getTitle() + " | " + p.getCategory() + " | $" + p.getPrice());
+			}
+		} catch (Exception e) {
+			System.err.println("System Error: "+e.getMessage());
+		}
 	}
 
 }

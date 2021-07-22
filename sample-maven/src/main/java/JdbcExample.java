@@ -10,10 +10,11 @@ import java.util.Properties;
 public class JdbcExample {
 	
 	public static void main(String[] args) {
-		// "jdbc:postgresql://localhost:5432/postgres", "postgres", "postgres"
 
+
+		String configLocation = "/Volumes/Data HD/Workspace/sts2/sample-maven/src/main/resources/config.properties";
 	
-		try (FileInputStream fileStream = new FileInputStream("/Volumes/Data HD/Workspace/sts2/sample-maven/src/main/resources/config.properties")){
+		try (FileInputStream fileStream = new FileInputStream(configLocation)){
 			
 			//load the properties file
 			Properties props = new Properties();
@@ -30,28 +31,12 @@ public class JdbcExample {
 			//1. create connection
 			try (Connection conn = DriverManager.getConnection(URL,USERNAME,PASSWORD)) {	
 			
-				//2. get Statement object
-				//Statement stmt = conn.createStatement();
-	//			PreparedStatement pstmt = conn.prepareStatement("INSERT INTO employee (name,gender) VALUES (?,?)");
-	//			
-	//			pstmt.setString(1, "Johnson");
-	//			pstmt.setString(2, "M");
-	//			
-	//			int inserted1 = pstmt.executeUpdate();
-	//			System.out.println("inserted: "+inserted1);
-	
+				//conn.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
+				insertData(conn);
 				
-				//3. get resultset object
-				//PreparedStatement pstmt2 = conn.prepareStatement("SELECT * FROM employee WHERE gender = ?");
-				//readData(pstmt2);
-	//			Statement stmt = conn.createStatement();
-	//			int inserted2 = stmt.executeUpdate("INSERT INTO employee (name,gender) VALUES ('Christina','F')");
-	//			System.out.println("inserted: "+inserted2);
-				
-				Statement stmt = conn.createStatement();
-				ResultSet rs = stmt.executeQuery("select sample.add(4,2)");
-				rs.next();
-				System.out.println(rs.getInt(1));
+				readData(conn);
+
+				callFunction(conn);
 			
 			} catch (SQLException e) {
 				e.printStackTrace();
@@ -60,16 +45,29 @@ public class JdbcExample {
 		} catch (Exception ex) {ex.printStackTrace();}
 	}
 	
-	static void readData(PreparedStatement pstmt) throws SQLException {
+	static void callFunction(Connection conn) throws SQLException {
+		Statement stmt = conn.createStatement();
+		ResultSet rs = stmt.executeQuery("select sample.add(4,2)");
+		rs.next();
+		System.out.println(rs.getInt(1));
+	}
+
+	static void insertData(Connection conn) throws SQLException {
+		PreparedStatement pstmt = conn.prepareStatement("INSERT INTO employee (name,gender) VALUES (?,?)");	
+		pstmt.setString(1, "Johnson");
+		pstmt.setString(2, "M");
+		int inserted1 = pstmt.executeUpdate();
+		System.out.println("inserted: "+inserted1);
+	}
+	
+	static void readData(Connection conn) throws SQLException {
+		PreparedStatement pstmt = conn.prepareStatement("SELECT * FROM employee WHERE gender = ?");
 		pstmt.setString(1, "M");
-		
 		ResultSet rs = pstmt.executeQuery();
-		
 		while(rs.next()) {
 			String name = rs.getString("name");
 			System.out.println(name);
 		}
-
 	}
 
 }

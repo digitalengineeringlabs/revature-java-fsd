@@ -8,41 +8,69 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import common.pojo.Product;
+import common.util.DBUtil;
+import service.ProductService;
 
 public class ProductDAO {
+	
+	private static final Logger logger = LogManager.getLogger(ProductDAO.class);
 
 	public List<Product> findAll() throws Exception {
-		//TODO: temporary - should be fixed with actual SQL call
+		return findAll(null);
+	}
+
+	private boolean isTitlePresent(String title) {
+		return title != null && !title.isEmpty();
+	}
+
+	public List<Product> findAll(String title) throws Exception {
+		// TODO: temporary - should be fixed with actual SQL call
 		List<Product> products = new ArrayList<Product>();
-		
-		try(Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","postgres")){
-			PreparedStatement pstmt = conn.prepareStatement("select * from product");
+
+		try {
+			Connection conn = DBUtil.getInstance().getConnection();
+
+			String query = "select * from product";
+			if (isTitlePresent(title)) {
+				query += " where title = ?";
+			}
+
+			PreparedStatement pstmt = conn.prepareStatement(query);
+
+			if (isTitlePresent(title)) {
+				pstmt.setString(1, title);
+			}
+
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
-				Product p = new Product(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getDouble(4));
+
+			while (rs.next()) {
+				Product p = new Product(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getDouble(4));
 				products.add(p);
 			}
 		} catch (SQLException ex) {
-			throw ex;}
-		
+			throw ex;
+		}
+
 		return products;
 	}
-	
-	public List<Product> findAll(String title){
-		return null;
-	}
-	
-	public int save(Product p) {
+
+	public int save(Product p) throws Exception {
+		Connection conn = DBUtil.getInstance().getConnection();
+		// TODO: save
+
 		return 0;
 	}
-	
-	public void	update(int id, String title) {
-		
+
+	public void update(int id, String title) {
+
 	}
-	
-	public void	delete(int id) {
-		
+
+	public void delete(int id) {
+
 	}
-	
+
 }
