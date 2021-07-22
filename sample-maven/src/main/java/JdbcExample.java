@@ -4,6 +4,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Properties;
 
 public class JdbcExample {
@@ -41,12 +42,16 @@ public class JdbcExample {
 	
 				
 				//3. get resultset object
-				PreparedStatement pstmt2 = conn.prepareStatement("SELECT * FROM employee WHERE gender = ?");
-				readData(pstmt2);
+				//PreparedStatement pstmt2 = conn.prepareStatement("SELECT * FROM employee WHERE gender = ?");
+				//readData(pstmt2);
 	//			Statement stmt = conn.createStatement();
 	//			int inserted2 = stmt.executeUpdate("INSERT INTO employee (name,gender) VALUES ('Christina','F')");
 	//			System.out.println("inserted: "+inserted2);
 				
+				Statement stmt = conn.createStatement();
+				ResultSet rs = stmt.executeQuery("select sample.add(4,2)");
+				rs.next();
+				System.out.println(rs.getInt(1));
 			
 			} catch (SQLException e) {
 				e.printStackTrace();
