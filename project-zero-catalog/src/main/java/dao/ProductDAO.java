@@ -28,6 +28,7 @@ public class ProductDAO {
 	}
 
 	public List<Product> findAll(String title) throws Exception {
+		
 		// TODO: temporary - should be fixed with actual SQL call
 		List<Product> products = new ArrayList<Product>();
 
@@ -60,9 +61,16 @@ public class ProductDAO {
 
 	public int save(Product p) throws Exception {
 		Connection conn = DBUtil.getInstance().getConnection();
-		// TODO: save
+		
+		PreparedStatement pstmt = conn.prepareStatement("insert into product (title,category,price) values (?,?,?)");
 
-		return 0;
+		pstmt.setString(1, p.getTitle());
+		pstmt.setString(2, p.getCategory());
+		pstmt.setDouble(3, p.getPrice());
+		
+		int inserted = pstmt.executeUpdate();
+		
+		return inserted;
 	}
 
 	public void update(int id, String title) {
