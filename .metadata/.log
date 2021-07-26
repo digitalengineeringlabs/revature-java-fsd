@@ -8945,3 +8945,15 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 22:50:09.605
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 22:54:18.972
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQJiXQoQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 22:54:18.974
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HQJiXQoQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 22:54:18.975
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 22:54:18.975
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQJiXQoQ => OK
