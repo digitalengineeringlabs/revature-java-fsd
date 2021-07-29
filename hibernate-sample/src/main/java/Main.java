@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Set;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -20,15 +21,50 @@ public class Main {
 		
 		//use session for querying and other operations
 		
-		getUniqueRecord(session);
-		getAllRecords(session);
-		filterRecords(session);
+//		getUniqueRecord(session);
+//		getAllRecords(session);
+//		filterRecords(session);
+//		
+//		createRecord(session); 
+//		updateRecord(session); 
+//		deleteRecord(session); 
 		
-		createRecord(session); 
-		updateRecord(session); 
-		deleteRecord(session); 
+		readOneToMany(session);
+		
+		manyToOne(session);
 		
 		session.close();
+	}
+
+	private static void readOneToMany(Session session) {
+		Employee emp = (Employee) session.get(Employee.class, 29);
+		System.out.println(emp.getId());
+		System.out.println(emp.getName());
+		System.out.println(emp.getGender());
+		
+		Set<Address> addresses = emp.getAddresses();
+		for(Address a : addresses) {
+			System.out.println(a.getStreet());
+		}
+	}
+
+	private static void manyToOne(Session session) {
+		Transaction tx = null;
+		try {
+			tx = session.beginTransaction();
+			
+			Employee e = new Employee("Ben", "M");
+			session.save(e);
+			
+			Address add = new Address("300 Grance Ave","56565");
+			add.setEmployee(e);
+			session.save(add);
+			
+			tx.commit();
+		}catch(Exception e) {
+			 if (tx!=null) tx.rollback();
+			e.printStackTrace();
+		}
 	}
 
 	private static void deleteRecord(Session session) {
@@ -107,3 +143,5 @@ public class Main {
 	}
 
 }
+
+	

@@ -4,23 +4,20 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-   <class name = "Employee" table = "EMPLOYEE">
+   <class name = "Address" table = "EMPLOYEE_ADDRESS">
       
       <id name = "id" type = "int" column = "id">
          <!-- <generator class="native"/> -->
          <generator class="sequence" >
-        <param name="sequence">employee_id_seq</param>
+        <param name="sequence">employee_address_id_seq</param>
       </generator>
       </id>
       
-      <property name = "name" column = "name" type = "string"/>
-      <property name = "gender" column = "gender" type = "string"/>
+      <property name = "street" column = "street" type = "string"/>
+      <property name = "zip" column = "zip" type = "string"/>
       <!-- <property name = "salary" column = "salary" type = "int"/> -->
-      
-      <set name = "addresses" cascade="all">
-         <key column = "employee_id"/>
-         <one-to-many class="Address"/>
-      </set>
-      
+       <many-to-one name = "employee" column = "employee_id" 
+         class="Employee" not-null="true" cascade="all"/>
+         
    </class>
 </hibernate-mapping>

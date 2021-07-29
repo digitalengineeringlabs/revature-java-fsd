@@ -1,9 +1,12 @@
+import java.util.Set;
 
 public class Employee {
 
 	private int id;
 	private String name;
 	private String gender;
+	
+	private Set<Address> addresses;
 
 	public Employee() {
 		super();
@@ -37,6 +40,14 @@ public class Employee {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	public Set<Address> getAddresses() {
+		return addresses;
+	}
+
+	public void setAddresses(Set<Address> addresses) {
+		this.addresses = addresses;
 	}
 
 }
