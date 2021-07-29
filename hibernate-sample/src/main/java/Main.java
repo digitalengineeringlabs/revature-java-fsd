@@ -1,12 +1,14 @@
 import java.util.List;
 import java.util.Set;
 
+import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Restrictions;
 
 
 public class Main {
@@ -29,11 +31,24 @@ public class Main {
 //		updateRecord(session); 
 //		deleteRecord(session); 
 		
-		readOneToMany(session);
+//		readOneToMany(session);
+//		manyToOne(session);
 		
-		manyToOne(session);
+		//select location, avg(salary) from employee group by location
+		
+		criteriaSample(session);
 		
 		session.close();
+	}
+
+	private static void criteriaSample(Session session) {
+		Criteria cr = session.createCriteria(Employee.class);
+		cr.add(Restrictions.eq("location", "Chicago"));
+		
+		List<Employee> results = cr.list();
+		for(Employee e : results) {
+			System.out.println(e.getName());
+		}
 	}
 
 	private static void readOneToMany(Session session) {

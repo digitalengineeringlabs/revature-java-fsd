@@ -5,6 +5,7 @@ public class Employee {
 	private int id;
 	private String name;
 	private String gender;
+	private String location;
 	
 	private Set<Address> addresses;
 
@@ -16,6 +17,14 @@ public class Employee {
 		super();
 		this.name = name;
 		this.gender = gender;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
 	}
 
 	public int getId() {

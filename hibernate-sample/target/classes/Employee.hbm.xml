@@ -15,6 +15,7 @@
       
       <property name = "name" column = "name" type = "string"/>
       <property name = "gender" column = "gender" type = "string"/>
+      <property name = "location" column = "location" type = "string"/>
       <!-- <property name = "salary" column = "salary" type = "int"/> -->
       
       <set name = "addresses" cascade="all">
