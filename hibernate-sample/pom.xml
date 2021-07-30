@@ -13,15 +13,17 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>3.6.10.Final</version>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <!-- <version>3.6.10.Final</version> -->
+		    <!-- <version>4.3.11.Final</version> -->
+		    <version>5.5.5.Final</version>
 		</dependency>
-		<dependency>
+ 		<!-- <dependency>
 			<groupId>javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.12.1.GA</version>
-		</dependency>
+		</dependency> --> 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>

@@ -10,7 +10,6 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.criterion.Restrictions;
 
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -42,6 +41,7 @@ public class Main {
 	}
 
 	private static void criteriaSample(Session session) {
+		
 		Criteria cr = session.createCriteria(Employee.class);
 		cr.add(Restrictions.eq("location", "Chicago"));
 		
@@ -105,6 +105,7 @@ public class Main {
 			tx = session.beginTransaction();
 			
 			Employee emp = (Employee) session.get(Employee.class, 30);
+			
 			emp.setGender("F");			
 			session.update(emp);
 
@@ -120,14 +121,18 @@ public class Main {
 		Transaction tx = null;
 		try {
 			tx = session.beginTransaction();
+			
 			Employee newEmp = new Employee("Will","M");
 			int id = (Integer) session.save(newEmp);
 			tx.commit();
 			System.out.println("New employee ID: "+id);
+			
 		 } catch (HibernateException e) {
 	         if (tx!=null) tx.rollback();
 	         e.printStackTrace(); 
 	      }
+		
+		
 		return tx;
 	}
 
@@ -143,6 +148,7 @@ public class Main {
 	}
 
 	private static void getAllRecords(Session session) {
+		
 		List<Employee> employees = session.createQuery("FROM Employee").list();
 		
 		for(Employee e : employees) {
