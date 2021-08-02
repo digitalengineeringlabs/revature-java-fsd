@@ -9,8 +9,8 @@
       <id name = "id" type = "int" column = "id">
          <!-- <generator class="native"/> -->
          <generator class="sequence" >
-        <param name="sequence">employee_id_seq</param>
-      </generator>
+	        <param name="sequence">employee_id_seq</param>
+	      </generator>
       </id>
       
       <property name = "name" column = "name" type = "string"/>
