@@ -11892,3 +11892,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 21:36:06.008
 !MESSAGE executing callback sts4.classpath.ILIqnppC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 02:16:22.871
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ILIqnppC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 02:16:22.872
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ILIqnppC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 02:16:22.873
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 02:16:22.873
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ILIqnppC => OK
