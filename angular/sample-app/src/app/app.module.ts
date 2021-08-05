@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AddProductComponent } from './products/add-product/add-product.component';
 import { ProductComponent } from './products/product.component';
 import { ProductsComponent } from './products/products.component';
 
@@ -9,7 +10,8 @@ import { ProductsComponent } from './products/products.component';
   declarations: [
     AppComponent,
     ProductComponent,
-    ProductsComponent
+    ProductsComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule

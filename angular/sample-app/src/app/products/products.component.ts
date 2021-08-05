@@ -36,8 +36,15 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onRemoveItem(e:Event){
+  onRemoveItem(e:any){
     console.log(e)
+    let filtered = this.items.filter((i) => {return i.title !== e});
+    this.items = filtered
+  }
+
+  onAddProduct(data:any) {
+    console.log(data)
+    this.items.push({supplier:{name:'Unknown'},...data})
   }
 
 
