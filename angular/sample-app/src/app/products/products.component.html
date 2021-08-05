@@ -1,0 +1,6 @@
+
+<app-product *ngFor="let item of items" 
+            [name]="item.title" 
+            [price]="item.price" 
+            [supplier]="item.supplier"
+            (remove)="onRemoveItem($event)"></app-product>

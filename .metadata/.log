@@ -11904,3 +11904,227 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 02:16:22.873
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ILIqnppC => OK
+!SESSION 2021-08-05 18:42:58.179 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/macbook/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/macbook/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-08-05 18:44:41.687
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-05 18:44:41.687
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a30dbc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76104df5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:46:31.353
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:46:31.354
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3ceb5dc7[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:46:31.403
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:46:32.602
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:47:21.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:47:22.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-08-05 18:47:39.437
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:47:50.888
+!MESSAGE Boot LS startup time from start to initialized: 79114ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.081
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EFAgGQOqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.230
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.258
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.260
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.274
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.277
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EFAgGQOq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.282
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.283
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq sample-maven false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.555
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.596
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.636
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.639
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.639
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.642
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.642
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.643
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.645
+!MESSAGE classpath=17 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.646
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq hibernate-sample false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.649
+!MESSAGE classpath=27 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.701
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq project-zero-catalog false 27
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:07.701
+!MESSAGE executing callback sts4.classpath.EFAgGQOq 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:09.714
+!MESSAGE executing callback sts4.classpath.EFAgGQOq FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-05 18:48:09.714
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:16.263
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:16.367
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:16.790
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:16.792
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:16.964
+!MESSAGE buffering callback sts4.classpath.EFAgGQOq hibernate-sample false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:17.477
+!MESSAGE executing callback sts4.classpath.EFAgGQOq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 18:48:17.542
+!MESSAGE executing callback sts4.classpath.EFAgGQOq SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:24.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:24.831
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:25.985
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:26.065
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:29.329
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:29.333
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:29.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:29.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:32.349
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-05 18:48:32.351
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 21:02:56.641
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EFAgGQOq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 21:02:56.716
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EFAgGQOq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 21:02:56.737
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-05 21:02:56.738
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EFAgGQOq => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-05 21:02:58.988
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

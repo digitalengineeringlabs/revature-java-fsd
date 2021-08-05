@@ -1,0 +1,25 @@
+<div style="border:2px dashed #888;padding:2em">
+
+  Hello {{title}}
+
+  <div [ngStyle]="{'background-color': country === 'UK'?'green':'red'}">Footer</div>
+  <div [ngClass]="['highlight','bold']">Footer</div>
+
+  <div *ngIf="addProduct; else noNeed">New Product</div>
+  
+  <ng-template #noNeed>
+  <div>
+    Product Add is restricted
+  </div>
+  </ng-template>
+
+  <ol>
+    <li *ngFor="let v of vehicles; let i = index">{{i}} - {{v}}</li>
+  </ol>
+
+
+  <!-- <input (click)="sayHello()"> -->
+
+  <app-products></app-products>
+
+</div>
