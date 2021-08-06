@@ -1,12 +1,11 @@
+import java.util.Date;
 import java.util.List;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.type.DateType;
-import org.hibernate.type.IntegerType;
-import org.hibernate.type.StringType;
 
 public class Main5 {
 
@@ -24,17 +23,20 @@ public class Main5 {
 		List<Project> projects = query.list();
 		for(Project p : projects) {
 			System.out.println(p.getTitle());
+//			Set<Task> tasks = p.getTasks();
+//			System.out.println(tasks.size());
 		}
 		
 //		Transaction tx = null;
 //		try {
 //			tx = session.beginTransaction();
 //		
-//			Project p = new Project("Project 2",new Date());
+//			Project p = new Project("Project 3",new Date());
 //			session.save(p);
 //			
-//			Task t = new Task("Task 2", "NEW",new Date());
+//			Task t = new Task("Task 3", "NEW",new Date());
 //			t.setProject(p);
+//			
 //			session.save(t);
 //			
 //			tx.commit();
@@ -45,27 +47,23 @@ public class Main5 {
 //		}
 		
 		/* Named Query */
-//		 Query query2 = session.getNamedQuery("findProjectByBeginDate").setParameter("dt", new Date());
+//		 Query query2 = session.getNamedQuery("findProjectByID").setParameter("id", 13);
 //		 List<Project> projects1 = query2.list();
 //			for(Project p : projects1) {
 //				System.out.println(p.getTitle());
 //			}
-			
+//			
 		/* Native SQL */
-		//Query query3 = session.createNativeQuery("SELECT id, title, begin_date FROM sample.project");
+		Query query3 = session.createNativeQuery("SELECT id, title, begin_date FROM sample.project");
 
 //		Query query3 = session.createNativeQuery("SELECT id, title, begin_date FROM sample.project").addEntity(Project.class);
 			
-			
-//			List<Object[]> rows = query3.getResultList();
-//			
-//			
-//			
-//			for(Object[] cols : rows) {
-//				for(Object cell : cols) {
-//					System.out.println(cell);
-//				}
-//			}
+			List<Object[]> rows = query3.getResultList();
+			for(Object[] row : rows) {
+				for(Object cell : row) {
+					System.out.println(cell);
+				}
+			}
 	}
 
 }

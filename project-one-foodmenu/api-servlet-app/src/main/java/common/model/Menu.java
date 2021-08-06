@@ -1,42 +1,33 @@
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+package common.model;
 
-import javax.persistence.CascadeType;
+import java.io.Serializable;
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 
-@Entity(name="project")
-@NamedQueries({  
-	@NamedQuery(name = "findProjectByID", query = "FROM Project p WHERE p.id = :id")
-})
-public class Project {
+@Entity(name="menu")
+public class Menu implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_generator")
-    @SequenceGenerator(name="id_generator", sequenceName = "project_id_seq", allocationSize = 1)
+    @SequenceGenerator(name="id_generator", sequenceName = "menu_id_seq", allocationSize = 1)
 	private int id;
-	
+
 	@Column
 	private String title;
 	
 	@Column(name="begin_date")
 	private Date beginDate;
-	
-	@OneToMany(mappedBy = "project", cascade=CascadeType.ALL)
-	private Set<Task> tasks;
 
-	public Project() {
+	public Menu() {
 		super();
 	}
 
-	public Project(String title, Date beginDate) {
+	public Menu(String title, Date beginDate) {
 		super();
 		this.title = title;
 		this.beginDate = beginDate;
@@ -66,18 +57,8 @@ public class Project {
 		this.beginDate = beginDate;
 	}
 
-	public Set<Task> getTasks() {
-		return tasks;
+	@Override
+	public String toString() {
+		return "[" + this.title + "," + this.beginDate + "]";
 	}
-
-	public void setTasks(Set<Task> tasks) {
-		this.tasks = tasks;
-	}
-
-	public void addTask(Task task) {
-		if(this.tasks == null)
-			this.tasks = new HashSet<Task>();
-		this.tasks.add(task);
-	}
-
 }
