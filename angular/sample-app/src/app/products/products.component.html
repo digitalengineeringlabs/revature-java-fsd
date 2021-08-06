@@ -1,0 +1,11 @@
+<div>
+    <app-add-product (add)="onAddProduct($event)"></app-add-product>
+</div>
+
+<div>
+<app-product *ngFor="let item of items" 
+            [name]="item.title" 
+            [price]="item.price" 
+            [supplier]="item.supplier"
+            (remove)="onRemoveItem($event)"></app-product>
+</div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: #9aa;
+        }
+    </style>
+</head>
+<body style="padding:20px;border:2px dashed #888" onclick="handler('body')">
+    <div style="padding:20px;border:2px dashed #888" onclick="handler('outer')">
+        <div style="padding:20px;border:2px dashed #888" onclick="handler('inner')">
+            <h1 style="padding:20px;border:2px dashed #888" onclick="handler('h1')">Title</h1>
+        </div>
+    </div>
+
+    <div id="wrap">DIV
+        <p class="hint">P<br>
+            <a href="#">Click Me!!</a>
+        </p>
+    </div>
+
+
+    <button onclick= onclickEvent()>Click me!!</button>
+    <p id= "para" onmouseover = onmouseoverEvent() onmouseout = onmouseoutEvent() >This is a Paragraph....</p>
+    <script>
+        function capturing() {
+            alert("Capturing: "+ this.tagName);
+        }
+        function bubbling() {
+            alert("Bubbling: "+ this.tagName);
+        }
+        
+        var elems = document.querySelectorAll("div, p, a");
+        for(let elem of elems) {
+            elem.addEventListener("click", capturing, true);
+            elem.addEventListener("click", bubbling);
+        }
+
+        function handler(elem){
+            alert(elem+' > '+event.target)
+        }
+        function onclickEvent(){
+            alert('Hello, You clicked the button');
+        }
+        function onmouseoverEvent(){
+            document.getElementById("para").style.backgroundColor = "green";
+        }
+        function onmouseoutEvent(){
+            document.getElementById("para").style.backgroundColor = "yellow";
+        }
+    </script>
+</body>
+</html>
