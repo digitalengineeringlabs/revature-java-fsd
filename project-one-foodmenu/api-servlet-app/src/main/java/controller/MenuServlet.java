@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import common.model.Menu;
+import common.util.AppConstants;
+import common.util.JSONUtil;
 import manager.MenuManager;
 
 @SuppressWarnings("serial")
@@ -24,41 +26,37 @@ public class MenuServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-		resp.setContentType("application/json");
-
+		//get data from backend
 		List<Menu> menus = manager.findAll();
-
+		//transform java object to JSON string
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonInString = mapper.writeValueAsString(menus);
-
+		//send success response to client
 		resp.getWriter().print(jsonInString);
+		resp.setContentType(AppConstants.HTTP_JSON_CONTENT);
+		resp.setStatus(AppConstants.HTTP_OK);
 	}
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		StringBuffer jsonStr = new StringBuffer();
-		String line = null;
-		try {
-			BufferedReader reader = req.getReader();
-			while ((line = reader.readLine()) != null)
-				jsonStr.append(line);
-		} catch (Exception e) {
-			/* report an error */ }
-
-		ObjectMapper mapper = new ObjectMapper();
-		Menu menu = mapper.readValue(jsonStr.toString(), Menu.class);
 
 		try {
+			//get JSON data from HTTP body
+			ObjectMapper mapper = new ObjectMapper();
+			Menu menu = mapper.readValue(JSONUtil.getJSONData(req), Menu.class);
+			//persist data to backend
 			manager.create(menu);
-			resp.setStatus(200);
+			//send success response to client
 			String jsonResponse = mapper.writeValueAsString(menu);
 			resp.getWriter().print(jsonResponse);
+			resp.setStatus(AppConstants.HTTP_OK);
 		} catch (Exception e) {
-			resp.setStatus(500);
-			resp.getWriter().print("{\"error\":" + e.getMessage() + "}");
+			//send failure response to client
+			resp.getWriter().print(JSONUtil.getErrorMessage(e.getMessage()));
+			resp.setStatus(AppConstants.HTTP_ERROR);
 		}
 
-		resp.setContentType("application/json");
+		resp.setContentType(AppConstants.HTTP_JSON_CONTENT);
 
 	}
 }
