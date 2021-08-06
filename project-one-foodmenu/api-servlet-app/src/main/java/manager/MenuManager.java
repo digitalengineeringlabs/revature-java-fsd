@@ -25,4 +25,12 @@ public class MenuManager {
 		List<Menu> menus = new MenuManager().findAll();
 		System.out.println(menus);
 	}
+
+	public Menu findById(int id) {
+		return dao.findById(id);
+	}
+
+	public void delete(int id) {
+		dao.delete(id);
+	}
 }

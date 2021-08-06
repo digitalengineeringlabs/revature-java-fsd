@@ -10,4 +10,8 @@ public interface MenuDao {
 	
 	public List<Menu> findAll();
 
+	public Menu findById(int id);
+
+	public void delete(int id);
+
 }

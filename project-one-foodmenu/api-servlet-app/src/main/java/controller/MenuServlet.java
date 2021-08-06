@@ -1,6 +1,5 @@
 package controller;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.List;
 
@@ -14,11 +13,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import common.model.Menu;
 import common.util.AppConstants;
-import common.util.JSONUtil;
+import common.util.HttpUtil;
 import manager.MenuManager;
 
-@SuppressWarnings("serial")
-@WebServlet("/menus")
+@WebServlet("/menus/*")
 public class MenuServlet extends HttpServlet {
 
 	private MenuManager manager = new MenuManager();
@@ -26,11 +24,30 @@ public class MenuServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-		//get data from backend
-		List<Menu> menus = manager.findAll();
-		//transform java object to JSON string
+		String jsonInString = null;
 		ObjectMapper mapper = new ObjectMapper();
-		String jsonInString = mapper.writeValueAsString(menus);
+
+		String[] pathVariables = HttpUtil.getPathVariables(req);
+		
+		if(pathVariables == null || pathVariables.length == 0) {
+			//get data from backend
+			List<Menu> menus = manager.findAll();
+			//transform java object to JSON string
+			jsonInString = mapper.writeValueAsString(menus);
+		} 
+		// GET /menus/:id
+		// fetch individual menu item
+		if(pathVariables != null && pathVariables.length == 2) {
+			//get data from backend
+			int id = Integer.parseInt(pathVariables[1]);
+			Menu menu = manager.findById(id);
+			//transform java object to JSON string
+			if(menu != null)
+				jsonInString = mapper.writeValueAsString(menu);
+			else
+				jsonInString = HttpUtil.getErrorMessage("No Record Found");
+		}
+		
 		//send success response to client
 		resp.getWriter().print(jsonInString);
 		resp.setContentType(AppConstants.HTTP_JSON_CONTENT);
@@ -43,7 +60,7 @@ public class MenuServlet extends HttpServlet {
 		try {
 			//get JSON data from HTTP body
 			ObjectMapper mapper = new ObjectMapper();
-			Menu menu = mapper.readValue(JSONUtil.getJSONData(req), Menu.class);
+			Menu menu = mapper.readValue(HttpUtil.getJSONData(req), Menu.class);
 			//persist data to backend
 			manager.create(menu);
 			//send success response to client
@@ -52,11 +69,24 @@ public class MenuServlet extends HttpServlet {
 			resp.setStatus(AppConstants.HTTP_OK);
 		} catch (Exception e) {
 			//send failure response to client
-			resp.getWriter().print(JSONUtil.getErrorMessage(e.getMessage()));
+			resp.getWriter().print(HttpUtil.getErrorMessage(e.getMessage()));
 			resp.setStatus(AppConstants.HTTP_ERROR);
 		}
 
 		resp.setContentType(AppConstants.HTTP_JSON_CONTENT);
 
+	}
+	
+	@Override
+	protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String[] pathVariables = HttpUtil.getPathVariables(req);
+		// GET /menus/:id
+		// fetch individual menu item
+		if(pathVariables != null && pathVariables.length == 2) {
+			//get data from backend
+			int id = Integer.parseInt(pathVariables[1]);
+			manager.delete(id);
+			resp.setStatus(AppConstants.HTTP_OK);
+		}
 	}
 }
