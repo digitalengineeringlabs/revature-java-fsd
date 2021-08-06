@@ -2,6 +2,7 @@ package dao;
 
 import java.util.List;
 
+import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -21,11 +22,11 @@ public class MenuDaoImpl implements MenuDao {
 			tx = session.beginTransaction();
 			session.save(menu);
 			tx.commit();
-		} catch (Exception e) {
-			// TODO: handle exception
+		} catch (HibernateException e) {
 			if(tx != null) {
 				tx.rollback();
 			}
+			throw e;//new RuntimeException(e.getCause());
 		}
 		
 		session.close();

@@ -18,40 +18,47 @@ import manager.MenuManager;
 @SuppressWarnings("serial")
 @WebServlet("/menus")
 public class MenuServlet extends HttpServlet {
-	
+
 	private MenuManager manager = new MenuManager();
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
+
 		resp.setContentType("application/json");
 
 		List<Menu> menus = manager.findAll();
-		
+
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonInString = mapper.writeValueAsString(menus);
 
 		resp.getWriter().print(jsonInString);
 	}
-	
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		StringBuffer jsonStr = new StringBuffer();
-		  String line = null;
-		  try {
-		    BufferedReader reader = req.getReader();
-		    while ((line = reader.readLine()) != null)
-		    	jsonStr.append(line);
-		  } catch (Exception e) { /*report an error*/ }
-		  
-		  ObjectMapper mapper = new ObjectMapper();
-		  Menu menu = mapper.readValue(jsonStr.toString(), Menu.class);
-		  
-		  manager.create(menu);
-		  
-		  resp.setContentType("application/json");
-		  resp.setStatus(200);
-		  String jsonResponse = mapper.writeValueAsString(menu);
-		  resp.getWriter().print(jsonResponse);
+		String line = null;
+		try {
+			BufferedReader reader = req.getReader();
+			while ((line = reader.readLine()) != null)
+				jsonStr.append(line);
+		} catch (Exception e) {
+			/* report an error */ }
+
+		ObjectMapper mapper = new ObjectMapper();
+		Menu menu = mapper.readValue(jsonStr.toString(), Menu.class);
+
+		try {
+			manager.create(menu);
+			resp.setStatus(200);
+			String jsonResponse = mapper.writeValueAsString(menu);
+			resp.getWriter().print(jsonResponse);
+		} catch (Exception e) {
+			resp.setStatus(500);
+			resp.getWriter().print("{\"error\":" + e.getMessage() + "}");
+		}
+
+		resp.setContentType("application/json");
+
 	}
 }
