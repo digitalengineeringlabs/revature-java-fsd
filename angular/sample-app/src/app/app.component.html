@@ -1,6 +1,6 @@
 <div style="border:2px dashed #888;padding:2em">
 
-  Hello {{title}}
+  Hello {{ title | uppercase }}
 
   <div [ngStyle]="{'background-color': country === 'UK'?'green':'red'}">Footer</div>
   <div [ngClass]="['highlight','bold']">Footer</div>
@@ -19,7 +19,13 @@
 
 
   <!-- <input (click)="sayHello()"> -->
+<!-- 
+  <div style="background-color: #d99;">
+    <app-alert></app-alert>  
+  </div>
+  
 
-  <app-products></app-products>
+  <app-products></app-products> -->
 
+  <app-posts></app-posts>
 </div>

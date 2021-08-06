@@ -1,39 +1,44 @@
 import { Component, OnInit } from '@angular/core';
+import { IProduct } from './product';
+import { ProductsService } from './products.service';
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent implements OnInit {
+export class ProductsComponent {
 
-  items = [
-    {
-      title:'Television',
-      price: '400',
-      supplier: {
-        name: 'Amazon'
-      }
-    },
-    {
-      title:'Mobile',
-      price: '40',
-      supplier: {
-        name: 'Amazon'
-      }
-    },
-    {
-      title:'Chair',
-      price: '4',
-      supplier: {
-        name: 'Amazon'
-      }
-    }
-  ]
+  items:IProduct[] = []
 
-  constructor() { }
+  constructor(private service:ProductsService){
+    console.log('Instantiation phase')
+  }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    this.items = this.service.getItems();
+      console.log('Initialization phase')
+  }
+
+  ngOnChanges(){
+    console.log('ngOnChanges phase')
+  }
+  ngDoCheck(){
+    console.log('ngDoCheck phase')
+
+  }
+
+  ngAfterViewInit(){
+    console.log('ngAfterViewInit phase')
+
+  }
+ngAfterViewChecked(){
+  console.log('ngAfterViewChecked phase')
+
+}
+
+  ngOnDestroy(){
+      console.log('Destroy phase')
   }
 
   onRemoveItem(e:any){
@@ -46,6 +51,7 @@ export class ProductsComponent implements OnInit {
     console.log(data)
     this.items.push({supplier:{name:'Unknown'},...data})
   }
+
 
 
 }

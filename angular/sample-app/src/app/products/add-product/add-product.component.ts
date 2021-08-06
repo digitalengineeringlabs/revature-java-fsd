@@ -1,4 +1,5 @@
 import { Component, Output, EventEmitter } from "@angular/core";
+import { AlertService } from "src/app/alerts/alert.service";
 
 @Component({
     selector: 'app-add-product',
@@ -18,6 +19,10 @@ export class AddProductComponent {
 
     @Output() add:EventEmitter<any> = new EventEmitter<any>();
 
+    constructor(private alerts:AlertService){
+
+    }
+
     onTitleInput(e:any){
         this.title = e.target.value;
     }
@@ -28,6 +33,9 @@ export class AddProductComponent {
 
     addProduct(){
         this.add.emit({title:this.title, price:this.price});
+        //this.alerts.alert.next(`${this.title} is added`);
+
+        this.alerts.post(`${this.title} is added`);
     }
 
 }
