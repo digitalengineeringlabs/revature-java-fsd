@@ -27,5 +27,15 @@
 
   <app-products></app-products> -->
 
-  <app-posts></app-posts>
+  <!-- <app-posts></app-posts> -->
+
+  <!-- <app-signup></app-signup> -->
+  <!-- <app-login></app-login> -->
+  
+  <ul>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><a routerLink="">Home</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['catalog','1']" [queryParams]="{category:'electronics'}">Catalog</a></li>
+  </ul>
+
+  <router-outlet></router-outlet>
 </div>

@@ -14061,3 +14061,162 @@ java.lang.NullPointerException
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-07 02:15:19.378
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hsQRQrcr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-07 02:15:19.379
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hsQRQrcr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-07 02:15:19.380
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-07 02:15:19.380
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hsQRQrcr => OK
+!SESSION 2021-08-07 21:40:06.544 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/macbook/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/macbook/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-08-07 21:40:19.227
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-07 21:40:19.227
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6694fb1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61ce238e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-08-07 21:40:30.192
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:25:46.348
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:25:46.348
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@63cff421[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:25:46.352
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:25:46.405
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:25:58.451
+!MESSAGE Boot LS startup time from start to initialized: 12079ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.894
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NBePwkoeisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.897
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.900
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.900
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.901
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NBePwkoe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.906
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.907
+!MESSAGE buffering callback sts4.classpath.NBePwkoe api-servlet-app false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.933
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.934
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.935
+!MESSAGE buffering callback sts4.classpath.NBePwkoe EventScorer false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.935
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.936
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.936
+!MESSAGE buffering callback sts4.classpath.NBePwkoe HomeTour false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.937
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.938
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.938
+!MESSAGE buffering callback sts4.classpath.NBePwkoe JavaSamples false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.941
+!MESSAGE classpath=43 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.942
+!MESSAGE buffering callback sts4.classpath.NBePwkoe hibernate-sample false 43
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:00.942
+!MESSAGE executing callback sts4.classpath.NBePwkoe 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-08 10:26:02.062
+!MESSAGE executing callback sts4.classpath.NBePwkoe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 07:35:46.209
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NBePwkoe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 07:35:46.210
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NBePwkoe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 07:35:46.211
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 07:35:46.211
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NBePwkoe => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-09 07:35:46.657
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
