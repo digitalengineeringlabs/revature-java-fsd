@@ -21,6 +21,7 @@ import { ProjectinfoComponent } from './catalog/projectinfo/projectinfo.componen
 import { NotfoundComponent } from './site/notfound/notfound.component';
 import { AuthGuard } from './auth.guard';
 import { AppLoginComponent } from './site/app-login/app-login.component';
+import { ParkComponent } from './park/park.component';
 
 const routes:Routes = [
   { path:'',component:HomeComponent, canActivate: [AuthGuard]},
@@ -57,7 +58,8 @@ const routes:Routes = [
     CatalogComponent,
     ProjectinfoComponent,
     NotfoundComponent,
-    AppLoginComponent
+    AppLoginComponent,
+    ParkComponent
   ],
   imports: [
     BrowserModule,

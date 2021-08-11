@@ -1,25 +1,40 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NotfoundComponent } from './notfound.component';
+describe('sample',()=>{
 
-describe('NotfoundComponent', () => {
-  let component: NotfoundComponent;
-  let fixture: ComponentFixture<NotfoundComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ NotfoundComponent ]
+    beforeAll(()=>{
+        console.log('before all callled')
     })
-    .compileComponents();
-  });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(NotfoundComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    beforeEach(()=>{
+        console.log('before eack callled')
+    })
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    //test case 1
+    it('test case 1',()=>{
+        var user = {}
+        expect(user).toBeTruthy()
+    })
+
+    //test case 2
+    it('test case 2', ()=>{
+        expect(3).toBeGreaterThan(2)
+    })
+
+    describe('first set', ()=>{
+
+        beforeEach(()=>{
+            console.log('before eack sub test cases')
+        })
+        //test case 3
+        it('test case 3',()=>{
+            var user = {}
+            expect(user).toBeTruthy()
+        })
+
+        //test case 4
+        it('test case 4', ()=>{
+            expect(3).toBeGreaterThan(2)
+        })
+    })
+
+})
