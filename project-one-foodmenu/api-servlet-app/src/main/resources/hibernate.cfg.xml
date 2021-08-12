@@ -17,6 +17,7 @@
       	<property name="format_sql">true</property>
       	
       	<mapping class="common.model.Menu"/>
+      	<mapping class="common.model.User"/>
 		
    </session-factory>
 </hibernate-configuration>
