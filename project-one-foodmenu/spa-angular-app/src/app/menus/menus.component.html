@@ -1,3 +1,9 @@
 <h4>Menus</h4>
 
+<div>
+    <input type="text" name="title" [value]="title" (input)="onTitleChange($event)">
+    <br>
+    <button (click)="submitMenu()">Add</button>
+</div>
+
 <div *ngFor="let menu of menus">{{menu.title}}</div>

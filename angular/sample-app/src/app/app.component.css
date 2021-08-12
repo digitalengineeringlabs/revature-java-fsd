@@ -8,3 +8,7 @@ h2 {
 .bold {
     font-size: larger;
 }
+
+.active {
+    background-color: #d77;
+}

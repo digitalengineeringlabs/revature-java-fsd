@@ -1,0 +1,28 @@
+<div>
+
+    <!-- <input type="text" name="username" [value]="username" 
+        (input)="onUsernameChange($event)" placeholder="Username"><br/>
+    <input type="password" name="password" [value]="password" 
+        (input)="onPasswordChange($event)" placeholder="Password"><br/>
+    <input type="email" name="email" [value]="email" 
+        (input)="onEmailChange($event)" placeholder="Email"><br/>
+
+    <button (click)="onSubmit()"></button> -->
+
+    <!-- let signupForm = new NgForm() -->
+
+    <form (ngSubmit)="onSubmit(signupForm)" #signupForm="ngForm">
+
+        <input type="text" name="username" ngModel required 
+            #uname="ngModel" [ngClass]="!uname.valid ? 'required' : ''"
+            placeholder="Username">
+            
+            <span *ngIf="!uname.valid && uname.touched">Username is required</span>
+            <br/>
+        <input type="password" name="password" ngModel placeholder="Password"><br/>
+        <input type="email" name="email" ngModel placeholder="Email"><br/>
+
+        <button type="submit" [disabled]="!signupForm.valid">Submit</button>
+    </form>
+    
+</div>
