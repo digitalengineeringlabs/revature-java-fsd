@@ -8,6 +8,13 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.validation.constraints.NotNull;
 
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
 @Entity
 public class Employee {
 
@@ -28,17 +35,6 @@ public class Employee {
 	
 	@Column
 	private int salary;
-
-	public Employee() {
-		super();
-	}
-
-	public Employee(String name, String gender, int age) {
-		super();
-		this.name = name;
-		this.gender = gender;
-		this.age = age;
-	}
 
 	public int getId() {
 		return id;
@@ -79,5 +75,7 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	
+	
 
 }

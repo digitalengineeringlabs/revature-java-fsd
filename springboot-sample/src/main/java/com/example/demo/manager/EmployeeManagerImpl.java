@@ -18,7 +18,7 @@ import com.example.demo.model.Employee;
 import com.example.demo.model.GenderSalary;
 
 @Service
-@Transactional // all methods in this class will utilize the tx manager and contextual sessions
+@Transactional// all methods in this class will utilize the tx manager and contextual sessions
 public class EmployeeManagerImpl implements EmployeeManager {
 	
 	@Autowired
