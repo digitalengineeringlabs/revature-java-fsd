@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Employee {
@@ -14,12 +15,17 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_generator")
     @SequenceGenerator(name="id_generator", sequenceName = "employee_id_seq", allocationSize = 1)
 	private int id;
+	
 	@Column
 	private String name;
+	
 	@Column
+	@NotNull(message = "Gender is required")
 	private String gender;
+	
 	@Column
 	private int age;
+	
 	@Column
 	private int salary;
 

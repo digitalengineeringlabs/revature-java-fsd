@@ -4,22 +4,28 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.dao.EmployeeDao;
 import com.example.demo.model.Employee;
 import com.example.demo.model.GenderSalary;
 
 @Service
+@Transactional // all methods in this class will utilize the tx manager and contextual sessions
 public class EmployeeManagerImpl implements EmployeeManager {
 	
 	@Autowired
 	private EmployeeDao dao;
 
 	@Override
+	@Transactional(readOnly=true, propagation=Propagation.NEVER)
 	public List<Employee> findAll() {
 
 //		return dao.findByGenderAndAge("M",31);
@@ -51,6 +57,9 @@ public class EmployeeManagerImpl implements EmployeeManager {
 	}
 
 	@Override
+	@Transactional(isolation=Isolation.SERIALIZABLE, 
+		rollbackFor={ConstraintViolationException.class}, 
+		propagation=Propagation.REQUIRES_NEW) // override when the transaction should rollback.
 	public Employee create(Employee e) {
 		return dao.save(e);
 	}
